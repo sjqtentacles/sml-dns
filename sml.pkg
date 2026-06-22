@@ -1,0 +1,4 @@
+package github.com/sjqtentacles/sml-dns
+
+require {
+}

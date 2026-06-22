@@ -1,0 +1,5 @@
+(* MLB for the sml-dns library: the pure DNS wire codec. Layout A -- no
+ * vendored dependencies, basis library only. Consumers reference this file. *)
+$(SML_LIB)/basis/basis.mlb
+dns.sig
+dns.sml

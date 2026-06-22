@@ -1,0 +1,9 @@
+(* Test executable basis: the DNS codec library plus the harness, shared
+ * support helpers, and runner. *)
+$(SML_LIB)/basis/basis.mlb
+../src/dns.mlb
+harness.sml
+support.sml
+test.sml
+entry.sml
+main.sml
