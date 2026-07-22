@@ -1,5 +1,7 @@
 # sml-dns
 
+[![CI](https://github.com/sjqtentacles/sml-dns/actions/workflows/ci.yml/badge.svg)](https://github.com/sjqtentacles/sml-dns/actions/workflows/ci.yml)
+
 A pure Standard ML codec for **DNS messages** on the wire ([RFC 1035](https://www.rfc-editor.org/rfc/rfc1035)).
 `decode`/`encode` move bytes between a structured `message` and its on-wire
 `Word8Vector.vector` form — **no sockets, no FFI, no I/O** — so the codec is
